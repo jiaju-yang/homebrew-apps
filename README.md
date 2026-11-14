@@ -35,4 +35,4 @@ brew install --cask jiaju-yang/apps/gopeed
 
 ## 许可
 
-本仓库中各应用安装定义的许可信息以其文件内容为准；所分发应用仍遵循各自上游项目的许可条款。
+所分发应用遵循各自上游项目的许可条款，Gopeed 的许可信息见[上游项目](https://github.com/GopeedLab/gopeed)。
