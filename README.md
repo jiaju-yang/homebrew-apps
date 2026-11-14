@@ -16,6 +16,8 @@ brew tap jiaju-yang/apps
 brew install --cask gopeed
 ```
 
+Gopeed 1.9.3 的上游构建目标为 macOS 10.15；Homebrew 可能不支持较旧的 macOS 版本。
+
 也可以直接安装：
 
 ```sh
