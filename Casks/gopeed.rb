@@ -7,7 +7,5 @@ cask "gopeed" do
   desc "Download manager supporting HTTP, BitTorrent, Magnet, and ed2k"
   homepage "https://gopeed.com"
 
-  depends_on macos: ">= :catalina"
-
   app "Gopeed.app"
 end
