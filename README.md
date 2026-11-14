@@ -10,24 +10,24 @@
 brew tap jiaju-yang/apps
 ```
 
-安装 Gopeed：
+安装 Gopeed 图形应用：
 
 ```sh
-brew install gopeed
+brew install --cask gopeed
 ```
 
 也可以直接安装：
 
 ```sh
-brew install jiaju-yang/apps/gopeed
+brew install --cask jiaju-yang/apps/gopeed
 ```
 
 ## 当前内容
 
-- `gopeed.rb`：Gopeed GUI 的 Homebrew 安装 formula。
+- `Casks/gopeed.rb`：Gopeed GUI 的 Homebrew cask，安装上游 DMG 中的 `Gopeed.app`。
 - `.github/instructions/`：供 GitHub Copilot 使用的仓库级路径说明。
 
-目前仓库范围包括 README、Copilot instructions 和 Gopeed 安装 formula。暂不包含 GitHub Actions、自动构建或发布流水线。
+目前仓库范围包括 README、Copilot instructions 和 Gopeed GUI 安装 cask。暂不包含 GitHub Actions、自动构建或发布流水线。
 
 ## 关于本仓库
 
@@ -35,4 +35,4 @@ brew install jiaju-yang/apps/gopeed
 
 ## 许可
 
-本仓库中各 formula 的许可信息以其文件内容为准；所分发应用仍遵循各自上游项目的许可条款。
+本仓库中各应用安装定义的许可信息以其文件内容为准；所分发应用仍遵循各自上游项目的许可条款。
