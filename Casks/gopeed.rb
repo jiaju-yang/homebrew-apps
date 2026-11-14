@@ -6,7 +6,6 @@ cask "gopeed" do
   name "Gopeed"
   desc "Download manager supporting HTTP, BitTorrent, Magnet, and ed2k"
   homepage "https://gopeed.com"
-  license "gpl-3.0"
 
   depends_on macos: ">= :catalina"
 
